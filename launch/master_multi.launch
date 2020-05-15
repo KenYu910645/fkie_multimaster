@@ -1,0 +1,5 @@
+<launch>    
+    <!--rosrun urg_node urg_node _serial_port:=/dev/laser_urg -->
+    <include file="$(find fkie_multimaster)/launch/master_discovery.launch"/>
+    <include file="$(find fkie_multimaster)/launch/master_sync.launch"/>
+</launch>
